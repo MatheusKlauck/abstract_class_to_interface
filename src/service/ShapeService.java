@@ -1,9 +1,9 @@
 package service;
 
-import entity.Shape;
+import entity.iShape;
 
 public class ShapeService {
-    public Double createArea(Shape shape) {
+    public Double createArea(iShape shape) {
         return shape.area();
     }
 }

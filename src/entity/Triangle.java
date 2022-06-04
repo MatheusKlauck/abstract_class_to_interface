@@ -1,6 +1,6 @@
 package entity;
 
-public class Triangle extends Shape {
+public class Triangle extends ColoredShape {
     private Double l;
 
     public Triangle(Color color, Double l) {
@@ -11,8 +11,6 @@ public class Triangle extends Shape {
     public Double getL() {
         return l;
     }
-
-    @Override
     public Double area() {
         return getL() * Math.sqrt(3) / 2;
     }

@@ -1,6 +1,6 @@
 package entity;
 
-public class Rectangle extends Shape {
+public class Rectangle extends ColoredShape {
     private Double width;
     private Double height;
 
@@ -17,8 +17,6 @@ public class Rectangle extends Shape {
     public Double getHeight() {
         return height;
     }
-
-    @Override
     public Double area() {
         return getWidth()*getHeight();
     }
